@@ -1,0 +1,12 @@
+# Compiled binary output from build.sh
+
+
+# Compiled binary output from `make dist`
+_dist/
+
+# Vendored dependencies
+vendor/
+
+# generated coverage file with `make test-cover`
+coverage.txt
+.idea
