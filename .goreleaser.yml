@@ -1,0 +1,18 @@
+builds:
+  - main: ./cmd/pack-repo
+    binary: ./bin/pack-repo
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - darwin
+      - linux
+      - windows
+    goarch:
+      - amd64
+
+archive:
+  format: tar.gz
+  replacements:
+    amd64: x86_64
+    darwin: Darwin
+    linux: Linux

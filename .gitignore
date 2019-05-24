@@ -2,7 +2,7 @@
 
 
 # Compiled binary output from `make dist`
-_dist/
+dist/
 
 # Vendored dependencies
 vendor/

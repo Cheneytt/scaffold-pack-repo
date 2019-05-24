@@ -1,4 +1,3 @@
-[![CircleCI](https://circleci.com/gh/scaffoldcreate/scaffold-pack-repo/tree/master.svg?style=svg)](https://circleci.com/gh/Cheneytt/scaffold-pack-repo/tree/master)
 # Scaffold Pack Repository Plugin
 
 The Scaffold pack repository plugin.
