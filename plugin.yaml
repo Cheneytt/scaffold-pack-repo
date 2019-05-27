@@ -1,5 +1,5 @@
 name: "pack-repo"
-version: "0.1.0"
+version: "0.1.1"
 usage: "The Scaffold pack repository plugin"
 description: "The Scaffold pack repository plugin"
 command: "$SCAFFOLD_PLUGIN_DIR/bin/pack-repo"
