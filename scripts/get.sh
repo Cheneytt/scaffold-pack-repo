@@ -30,14 +30,14 @@ echo "Downloading archive from $url"
 filename=`echo ${url} | sed -e "s/^.*\///g"`
 
 # Download archive
-if [ -n $(command -v curl) ]
+if [ -n $(command -v wget) ]
 then
-    curl -sSL -O $url
-elif [ -n $(command -v wget) ]
+    wget $url
+elif [ -n $(command -v curl) ]
 then
-    wget -q $url
+    curl -SL -O $url
 else
-    echo "Need curl or wget"
+    echo "Need wget or curl"
     exit -1
 fi
 
